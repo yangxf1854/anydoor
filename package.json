@@ -1,0 +1,25 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "tiny NODEJS static web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangxf1854/anydoor.git"
+  },
+  "author": "guoba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangxf1854/anydoor/issues"
+  },
+  "homepage": "https://github.com/yangxf1854/anydoor#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.16.0"
+  },
+  "dependencies": {}
+}
