@@ -8,8 +8,10 @@ const path = require('path');
 const conf = require('./config/defaultConfig');
 const route = require('./heaper/router')
 
+// 返回一个新建的http实例
 const server = http.createServer((req, res) => {
   const filePath = path.join(conf.root, req.url);
+  console.log(filePath, 'filePath');
   route(req, res, filePath);
 });
 
